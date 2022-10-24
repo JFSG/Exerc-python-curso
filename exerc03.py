@@ -1,0 +1,6 @@
+t1 = input ('Digite algo: ')
+t2 = type(t1)
+t3= t1.isalnum()
+t4 = t1.isupper()
+print (type(t1), t1.isalpha(), t1.isalnum(), t1.isupper(), )
+print('este digito é do tipo {}, é um numero? {}, ta em letra maiuscula? {}'.format(t2, t3, t4))
